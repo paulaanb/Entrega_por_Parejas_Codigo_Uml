@@ -44,6 +44,35 @@ print(palindromo.comprobacion("palabra"))
 # Ejercicio 2: 
 UML: ![Palindromo_instancia](https://user-images.githubusercontent.com/100090620/159371948-a0e1a2b4-4131-4c25-a950-e03938d9810a.png)
 
+Enunciado: en esta misma clase Palindromo, añada un atributo que se inicializará en el constructor. Añada también un método test() que pruebe si el atributo de la instancia es un palíndromo. Además, al destruir la instancia, muestre el atributo en mayúsculas.
+
+```
+class palindromo():
+Enunciado: en esta misma clase Palindromo, añada un atributo que se inicializará en el constructor. Añada también un método test() que pruebe si el atributo de la instancia es un palíndromo. Además, al destruir la instancia, muestre el atributo en mayúsculas.
+  def __init__(self,palabra):
+    self.palabra=palabra
+  def comprobacion(self):
+    palabra=input("Por favor, introduzca la palabra que desea comprobar.")
+    sum = 0
+    max = 0
+    letras = []
+    n = int(len(frase))
+    for i in range(0,n):
+      if(frase[i: i + 1]!=' '):
+        letras.append(frase[i: i + 1])
+        max = max + 1
+      while(letras[sum]==letras[max - 1 - sum] and sum<max/2):
+        print(str(sum) + letras[sum] + letras[max-1-sum])
+       sum = sum + 1
+      if(sum==int(max/2)):
+        print('True')
+        print(palabra.upper())
+      else:
+        print('False')
+        print(palabra.upper())
+        print(palindromo.constructor("palabra"))
+```
+
 
 # Ejercicio 3: 
 Enunciado: escriba una clase Logger, cuyo objetivo sea escribir un mensaje dado como parámetro en un archivo cada vez que se llame al método log(mensaje). La primera línea del archivo debe ser "--Start log--", seguida de los mensajes recibidos por el método log en la parte superior de un mensaje por línea, y la última línea del archivo, escrita cuando se destruye la instancia de Logger, debe ser "--End log: x log (s) -" donde x es el número de llamadas al método log. Esta clase Logger se utilizará en un método llamada() de una clase Test.
