@@ -1,0 +1,8 @@
+#Copiamos exactamente lo que nos pide el enunciado
+--Start log-- 
+Primera llamada 
+2a llamada 
+3a llamada 
+4a llamada 
+5a llamada 
+--End log: 5 log(s)-- 
