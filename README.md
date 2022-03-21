@@ -42,6 +42,7 @@ class palindromo():
 print(palindromo.comprobacion("palabra"))
 
 # Ejercicio 2: 
+UML: ![Palindromo_instancia](https://user-images.githubusercontent.com/100090620/159371948-a0e1a2b4-4131-4c25-a950-e03938d9810a.png)
 
 
 # Ejercicio 3: 
