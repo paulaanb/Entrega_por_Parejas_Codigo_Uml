@@ -16,5 +16,8 @@ class palindromo():
        sum = sum + 1
       if(sum==int(max/2)):
         print('True')
+        print(palabra.upper())
       else:
         print('False')
+        print(palabra.upper())
+        print(palindromo.constructor("palabra"))
