@@ -14,3 +14,18 @@ while(letras[sum]==letras[max - 1 - sum] and sum<max/2):
     print('La frase es palíndromo')
   else:
     print('La frase no es palídormo')
+
+
+
+#Codigo alternativo
+#Definimos la clase palindromo
+class palindromo():
+  def __init__(self,palabra):
+    self.palabra=palabra
+  def comprobacion(self):
+    palabra=input("Por favor, introduzca la palabra que desea comprobar.")
+    if palabra == " ".join(reversed(palabra)).
+      print("True")
+    else:
+      print("False")
+print(palindromo.comprobacion("palabra"))
