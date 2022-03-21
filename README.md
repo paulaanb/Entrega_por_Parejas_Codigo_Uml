@@ -27,7 +27,7 @@ while(letras[sum]==letras[max - 1 - sum] and sum<max/2):
   else:
     print('La frase no es palídormo')
 ```
-
+```
 #Codigo alternativo
 #Definimos la clase palindromo
 class palindromo():
@@ -40,7 +40,7 @@ class palindromo():
     else:
       print("False")
 print(palindromo.comprobacion("palabra"))
-
+```
 # Ejercicio 2: 
 UML: ![Palindromo_instancia](https://user-images.githubusercontent.com/100090620/159371948-a0e1a2b4-4131-4c25-a950-e03938d9810a.png)
 
