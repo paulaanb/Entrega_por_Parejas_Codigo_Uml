@@ -5,6 +5,7 @@ Este trabajo ha sido realizado por Paula Naranjo y Miguel Ángel Guerra. Hemos r
 Nuestra dirección de GitHub para este repositorio es la siguiente: https://github.com/paulaanb/Entrega_por_Parejas_Codigo_Uml.git
 
 # Ejercicio 1: 
+ UML: ![Palindromo_clase](https://user-images.githubusercontent.com/100090620/159370293-4e6db728-e536-4c51-b2c7-bc62aaf1ca92.png)
 
 
 # Ejercicio 2: 
