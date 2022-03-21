@@ -75,7 +75,7 @@ def main_logger():
 # Ejercicio 4: 
 Enunciado: adivina qué mensajes se muestran mediante el siguiente código voluntariamente poco comprensible:
 
-``#Definimos la clase que vamos a utilizar
+```#Definimos la clase que vamos a utilizar
 class A: 
     def z(self): 
         return self
@@ -102,3 +102,4 @@ class A:
 #El cuarto print da como resultado 1, puesto que dentro de len(a) hay un elemento
 #El quinto print da como resultado 2, puesto que dentro de len(a,z) hay 2 elementos
 #El sexto y ultimo print da como resultado 3, puesto que dentro de len(Z,1,'z') hay 3 elementos
+```
