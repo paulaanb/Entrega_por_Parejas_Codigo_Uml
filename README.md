@@ -106,7 +106,7 @@ class A:
 #El cuarto print da como resultado 1, puesto que dentro de len(a) hay un elemento
 #El quinto print da como resultado 2, puesto que dentro de len(a,z) hay 2 elementos
 #El sexto y ultimo print da como resultado 3, puesto que dentro de len(Z,1,'z') hay 3 elementos
-
+```
 
 # Ejercicio 4: 
 Enunciado: escriba una clase Logger, cuyo objetivo sea escribir un mensaje dado como parámetro en un archivo cada vez que se llame al método log(mensaje). La primera línea del archivo debe ser "--Start log--", seguida de los mensajes recibidos por el método log en la parte superior de un mensaje por línea, y la última línea del archivo, escrita cuando se destruye la instancia de Logger, debe ser "--End log: x log (s) -" donde x es el número de llamadas al método log. Esta clase Logger se utilizará en un método llamada() de una clase Test.
