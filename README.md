@@ -99,7 +99,7 @@ class A:
     print(A.y(aa, (a,z)))
     print(aa.y((z,1,'z')))
 
-#Los resultados que van a quedar quedan definimos por la funcion importada desde el main.py
+#Los resultados que van a quedar quedan definidos por la funcion importada desde el main.py
 #El primer print da como resultado "class '__main__.A" debido al self que definimos anteriormente en z
 #El segundo print da como resultado "False", pues la condicion introducida no es verdadera
 #El tercer print da como resultado 0, puesto que no hemos establecido la longuitud correctamente dentro de z
